@@ -1,4 +1,4 @@
-#Api endpoint documentation : https://documenter.getpostman.com/view/30640565/2sA2r6YjbG
+Api endpoint documentation : https://documenter.getpostman.com/view/30640565/2sA2r6YjbG
 
 Task Statement: Spring Boot Employee Table Read-Write Access Assignment
  To run and test the Spring Boot Employee Management API project, follow these steps:
@@ -47,3 +47,12 @@ Body:
     "designation": "Senior Software Engineer"
 } 
 
+•	To delete an employee by ID:
+
+DELETE http://localhost:8080/employees/{id}
+6.Verify the Results: Verify that the API endpoints are working as expected by checking the responses from each request.
+7.Stop the Application: Once you have finished testing, stop the Spring Boot application by pressing Ctrl + C in the terminal where it is running.
+
+
+Documentation url 
+https://documenter.getpostman.com/view/30640565/2sA2r6YjbG
